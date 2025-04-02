@@ -1,3 +1,5 @@
+#push file to github using script
+
 #!/bin/bash
 
 set -x
