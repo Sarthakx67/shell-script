@@ -24,10 +24,10 @@ N="\e[0m"
 #check for installation successful or not
 if [ $? -ne 0 ]
 then
-    echo "Installation of mysql is $R error $N"
+    echo -e "Installation of mysql is $R error $N"
     exit 1
 else
-    echo "Installation of mysql is $G success $N"
+    echo -e "Installation of mysql is $G success $N"
 fi
 
 
