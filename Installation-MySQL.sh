@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #check if user is root user or not
-USERID = $(id -u)
+USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then
     echo "ERROR:: Root Access is required"
